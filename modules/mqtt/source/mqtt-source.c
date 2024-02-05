@@ -24,7 +24,7 @@
 #include <MQTTClient.h>
 #include "messages.h"
 
-#define RECEIVE_TIMEOUT 1000
+#define RECEIVE_TIMEOUT 20000
 
 void
 mqtt_sd_set_topic(LogDriver *s, const gchar *topic)
